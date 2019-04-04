@@ -12,7 +12,7 @@
 		<h1><?=$tipe?> Anggota TNI</h1>
 		
 		<form method="post" class="form-horizontal">
-			<div class="form-group">
+			<div class="form-group"> 
 				<label class="control-label col-sm-2">
 					Nama
 				</label>

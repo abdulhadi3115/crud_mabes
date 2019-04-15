@@ -8,7 +8,7 @@ class Admin extends CI_Controller {
 			$this->load->model("model_admin");
 			$data = $this->model_admin->get_users_by_username_password($username,$password);
 			if(!empty($data)){
-				redirect("data");
+				redirect("dashboard");
 			}else{
 				echo "Gagal Masuk";
 			}

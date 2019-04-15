@@ -16,6 +16,9 @@
 <body>
 
 <div class="container">
+	<!-- <img src="<?php echo base_url($this->config->item("theme_admin")."/assets/login/images/AD3.png"); ?>" alt="IMG"> 
+	<img src="<?php echo base_url($this->config->item("theme_admin")."/assets/login/images/AL1.png"); ?>" alt="IMG">  
+	<img src="<?php echo base_url($this->config->item("theme_admin")."/assets/login/images/AU5.png"); ?>" alt="IMG"> -->
 	<h1>ANGGOTA TNI</h1>
 
 	<a href="data/add" class="btn btn-primary">Tambah Data Anggota</a>
